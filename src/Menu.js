@@ -3,10 +3,11 @@ function menuPage() {
   container.innerHTML = "";
   const h1 = document.createElement("h1");
   h1.textContent = "Menu";
+  h1.classList.add("menu-header");
   const p = document.createElement("p");
   p.textContent =
     "Our menu is inspired by the seasons and the finest locally sourced ingredients. We offer a variety of dishes that will satisfy any palate.";
-
+  p.classList.add("menu-paragraph");
   const menu = document.createElement("ul");
   const items = ["Appetizers", "Entrees", "Desserts"];
   items.forEach((item) => {
