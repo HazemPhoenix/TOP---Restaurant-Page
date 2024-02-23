@@ -2,7 +2,7 @@ import image from "./Image.jpg";
 
 function loadPage() {
   const container = document.querySelector("#container");
-
+  container.innerHTML = "";
   const h1 = document.createElement("h1");
   const h2 = document.createElement("h2");
   const img = new Image();
