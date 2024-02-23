@@ -1,1 +1,2 @@
-alert("its working");
+import loadPage from "./mainPage";
+loadPage();
